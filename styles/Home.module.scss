@@ -1,0 +1,39 @@
+.main{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+}
+
+.Gtext{
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+.LogsubMain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: grey;
+  // opacity: 60%;
+  border: 2px solid grey;
+  border-radius: 50px;
+}
+
+.LogsubMain:hover{
+  background-color: black;
+  transition: 1s ease-in-out;
+}
+
+.indexSubMain{
+   
+}
